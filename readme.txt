@@ -1,8 +1,3 @@
-123
-
-3333
-
-
-rrrr
-
-月   
+git init
+git remote add origin https://github.com/weijingren/crawler.git
+ 
