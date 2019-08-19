@@ -71,7 +71,7 @@ def fn_aladdin( cas ):
             # 英文名称
             desc_e=browser.find_element_by_class_name('product-name2-regent').text
             #产品编号
-            productno=browser.find_element_by_class_name('product-info').text.split('|')[0]
+            productno=browser.find_element_by_class_name('product-info').text.split('|')[0].replace('产品编号 ','')
             #产品CAS
             #cas=browser.find_element_by_class_name('product-info').text.split('|')[1]
             #产品品牌
