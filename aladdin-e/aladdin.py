@@ -6,7 +6,7 @@ import requests
 
 
 
-def fn_allddin( cas ):
+def fn_aladdin( cas ):
 
     # 定义存储抓取信息的列表，其中列表中均为字典类型
     data_info_list=[]
@@ -135,4 +135,10 @@ def fn_allddin( cas ):
                     data_info_list.append(data_info)
                     i+=1
             browser.close()
-    return data_info_list;
+    return data_info_list
+
+
+
+     
+if __name__ == '__main__':
+    aladdin = fn_aladdin
